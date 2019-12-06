@@ -8,14 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class CategoryComponent implements OnInit {
 
    list = [{id : 1,
-            title : 'happy',
-            text : 'to be happy'},
+            title : 'financial',
+            text : 'des probléme rencontrés au cours de l\'ètude',
+           image:'/assets/img/financial.jpg'},
+
             {id :2,
-              title : 'hapdfghpy',
-              text : 'to be happy'},
+              title : 'Sociale',
+              text : 'des problémes rencontrés dans la societés',
+              image:'/assets/img/socialejpg.jpg'},
               {id : 3,
-                title : 'dfggfb',
-                text : 'to be dfbndfgbf'}
+                title : 'familiale',
+                text : 'des problémes rencontrés dans la famille',
+                image:'/assets/img/familiale.jpg'}
     
   ];
   constructor() { }
