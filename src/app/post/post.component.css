@@ -1,0 +1,12 @@
+.conteneur{
+    padding: 5%;
+    margin:2px;
+    border:solid;
+    border-width:3px;
+    border-radius: 6%;
+    min-height: 500px;
+    border-color: rgb(181, 236, 234) ;
+   
+
+}
+.card.clickable {color: rgb(181, 236, 234) ;}

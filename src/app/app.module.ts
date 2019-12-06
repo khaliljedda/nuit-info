@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { CategoryComponent } from './category/category.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavComponent,
-    CategoryComponent
+    CategoryComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

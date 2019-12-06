@@ -1,14 +1,21 @@
 <div class="clr-row">
-        <div class="clr-col-lg-3 clr-col-12">
-            <a href="..." class="card clickable">
-                <div class="card-img">
-                    <img src="/src/assets/img/happy.jpg">
+        <div *ngFor="let item of list" class="clr-col-lg-3 clr-col-md-6 clr-col-12">
+            <a [routerLink]="['/post' , item.id]" class="card clickable">
+                    <div class="card-header">
+                          {{item.title}}
+                     </div>
+                <div class="card-img" >
+                    <img src="/assets/img/happy.jpg">
                 </div>
-                <div class="card-block">
+                <div class="">
                     <p class="card-text">
-                        you will be happy
+                    {{item.text}}
                     </p>
+                    <button class="btn btn-sm btn-link">Happy
+                    </button>
                 </div>
             </a>
         </div>
+
+       
 </div>
